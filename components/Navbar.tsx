@@ -13,8 +13,9 @@ export default function Navbar() {
           MAKALA VERT
         </Link>
         <div style={{ display: 'flex', gap: '32px', fontWeight: 500 }}>
-          <Link href="#catalog">Catalog</Link>
-          <Link href="#mission">Our Mission</Link>
+          <Link href="/#catalog">Catalog</Link>
+          <Link href="/#mission">Our Mission</Link>
+          <Link href="/track">Track Orders</Link>
           <Link href="#contact">Contact</Link>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
