@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Makala Vert - Uber for Gas & Regenerative charcoal
 
-## Getting Started
+**Makala Vert** est une plateforme de transition énergétique conçue pour la moderniser l'accès à l'énergie à Goma et dans le Nord-Kivu (RDC).
 
-First, run the development server:
+## 🌟 Concept
+L'application fonctionne comme un "Uber" pour les solutions énergétiques durables, permettant aux utilisateurs de commander et de suivre leurs livraisons en temps réel.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Gaz LPG :** Livraison à domicile de bouteilles de gaz de 20kg et 50kg.
+- **Charbon Régénératif (Makala Vert) :** Combustible écologique fabriqué à partir de biomasse agricole pour lutter contre la déforestation des Virunga.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Fonctionnalités
+- **Boutique en ligne :** Catalogue de produits avec panier interactif.
+- **Suivi de Commande :** Interface de suivi temps réel pour les livraisons.
+- **Impact Écologique :** Dashboard montrant les hectares de forêt sauvés.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Stack Technique
+- **Framework :** Next.js 14+ (App Router)
+- **Langage :** TypeScript
+- **Design :** Vanilla CSS (Thème Virunga Eco-Flow)
+- **UX :** Plus Jakarta Sans typography, Glassmorphism, Responsive design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation
+1. Clonez le dépôt
+2. Installez les dépendances : `npm install`
+3. Lancez le serveur : `npm run dev`
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Réalisé avec passion pour l'énergie renouvelable au Nord-Kivu.*
