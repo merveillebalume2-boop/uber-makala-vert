@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer style={{ background: 'var(--text-dark)', color: 'white', padding: '100px 0 50px 0' }}>
+      <footer id="contact" style={{ background: 'var(--text-dark)', color: 'white', padding: '100px 0 50px 0' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '60px', marginBottom: '80px' }}>
             <div>
