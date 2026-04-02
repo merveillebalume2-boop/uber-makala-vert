@@ -83,7 +83,6 @@ function ContactForm() {
 
   if (sent) return (
     <div className="animate-fade-in" style={{ textAlign: 'center', padding: '80px 20px', background: 'rgba(74,222,128,0.05)', borderRadius: '32px', border: '1px dashed var(--accent-green)' }}>
-      <div style={{ fontSize: '72px', marginBottom: '24px' }}>✨</div>
       <h3 style={{ fontSize: '28px', color: 'var(--accent-green)', marginBottom: '16px' }}>{c.successTitle}</h3>
       <p style={{ opacity: 0.8, maxWidth: '400px', margin: '0 auto', lineHeight: 1.6 }}>{c.successBody}</p>
       <button onClick={() => { setSent(false); setForm({ name: '', email: '', message: '' }); }}
@@ -171,12 +170,10 @@ export default function Home() {
           </div>
           <div className="animate-fade-in" style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
             <div className="glass-card" style={{ padding: '40px', borderLeft: '6px solid var(--primary-green)', transition: 'all 0.3s ease' }}>
-              <div style={{ fontSize: '32px', marginBottom: '16px' }}>🏔️</div>
               <h3 style={{ fontSize: '24px', marginBottom: '16px', color: 'var(--text-dark)' }}>{m.impact}</h3>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, fontSize: '16px' }}>{m.impactText}</p>
             </div>
             <div className="glass-card" style={{ padding: '40px', borderLeft: '6px solid var(--secondary-blue)', transition: 'all 0.3s ease' }}>
-              <div style={{ fontSize: '32px', marginBottom: '16px' }}>♻️</div>
               <h3 style={{ fontSize: '24px', marginBottom: '16px', color: 'var(--text-dark)' }}>{m.zeroWaste}</h3>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, fontSize: '16px' }}>{m.zeroWasteText}</p>
             </div>
@@ -204,14 +201,14 @@ export default function Home() {
             {/* Brand */}
             <div>
               <h3 style={{ fontSize: '24px', marginBottom: '24px', color: 'var(--accent-green)', display: 'flex', alignItems: 'center', gap: '12px', fontWeight: 900 }}>
-                🌿 MAKALA VERT
+                MAKALA VERT
               </h3>
               <p style={{ opacity: 0.5, lineHeight: 2, maxWidth: '300px', fontSize: '15px', marginBottom: '32px' }}>{f.tagline}</p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
-                <SocialBtn href="https://github.com/merveillebalume2-boop" label="GitHub" icon="💻" />
-                <SocialBtn href="https://twitter.com/merveillebalume" label="Twitter" icon="🐦" />
-                <SocialBtn href="https://instagram.com/merveillebalume" label="Instagram" icon="📸" />
-                <SocialBtn href="https://facebook.com/merveillebalume" label="Facebook" icon="📘" />
+                <SocialBtn href="https://github.com/merveillebalume2-boop" label="GitHub" icon="" />
+                <SocialBtn href="https://twitter.com/merveillebalume" label="Twitter" icon="" />
+                <SocialBtn href="https://instagram.com/merveillebalume" label="Instagram" icon="" />
+                <SocialBtn href="https://facebook.com/merveillebalume" label="Facebook" icon="" />
               </div>
             </div>
 

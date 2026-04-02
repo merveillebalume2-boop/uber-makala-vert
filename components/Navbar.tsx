@@ -39,7 +39,7 @@ export default function Navbar() {
           
           {/* Logo */}
           <div style={{ fontSize: '22px', fontWeight: 900, color: 'var(--primary-green)', letterSpacing: '-1px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            🌿 <span className="hide-mobile">MAKALA VERT</span>
+            <span className="hide-mobile">MAKALA VERT</span>
           </div>
 
           {/* Desktop Nav */}
@@ -79,7 +79,7 @@ export default function Navbar() {
               display: 'flex', alignItems: 'center', gap: '10px', transition: 'all 0.3s cubic-bezier(0.4,0,0.2,1)',
               boxShadow: '0 4px 15px rgba(0,109,68,0.25)'
             }}>
-              🛍️ <span className="hide-mobile">{t.nav.checkout}</span>
+              <span className="hide-mobile">{t.nav.checkout}</span>
               {totalItems > 0 && <span style={{ background: 'white', color: 'var(--primary-green)', padding: '2px 8px', borderRadius: '20px', fontSize: '12px', fontWeight: 900 }}>{totalItems}</span>}
             </button>
 

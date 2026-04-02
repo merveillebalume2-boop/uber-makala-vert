@@ -111,7 +111,7 @@ export default function Hero() {
             position: 'relative',
             filter: 'drop-shadow(0 30px 60px rgba(0,0,0,0.15))'
           }}>
-            <Image src="/images/hero_img.png" alt="Makala Vert Fuel" fill style={{ objectFit: 'contain' }} priority />
+            <Image src="/images/hero.png" alt="Makala Vert Fuel" fill style={{ objectFit: 'contain' }} priority />
           </div>
         </div>
       </div>

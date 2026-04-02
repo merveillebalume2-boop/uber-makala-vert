@@ -18,7 +18,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
         body: JSON.stringify({ items: cart, total: totalPrice }),
       });
       const data = await res.json();
-      alert(`✅ ${c.confirm.replace(' →', '')} — ID: ${data.orderId}`);
+      alert(`${c.confirm.replace(' →', '')} — ID: ${data.orderId}`);
       clearCart();
       onClose();
     } catch {
@@ -53,7 +53,6 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
         <div style={{ flex: 1, overflowY: 'auto', padding: '20px' }}>
           {cart.length === 0 ? (
             <div style={{ textAlign: 'center', paddingTop: '80px', color: 'var(--text-muted)' }}>
-              <div style={{ fontSize: '56px', marginBottom: '16px' }}>🛒</div>
               <p style={{ fontWeight: 600, fontSize: '17px' }}>{c.empty}</p>
               <p style={{ marginTop: '8px', fontSize: '14px' }}>{c.emptyBody}</p>
             </div>
