@@ -39,7 +39,7 @@ export const translations = {
       services: 'NOS SERVICES', service1: 'Livraison Gaz LPG', service2: 'Solutions Commerciales', service3: 'Charbon Régénératif', service4: 'Crédits Carbone',
       company: 'ENTREPRISE', company1: 'Notre Mission', company2: 'Vision 2030', company3: 'Durabilité', company4: 'Suivi Commande',
       legal: 'LÉGAL', legal1: 'Politique de Confidentialité', legal2: 'Conditions Générales', legal3: 'Cookies',
-      copyright: '© 2026 Virunga Eco-Flow — Tous droits réservés.', madeIn: 'Fait avec 🌿 à Goma, Nord-Kivu, RDC',
+      copyright: 'Copyright @ Merveille Balume K', madeIn: '',
     },
     cart: { title: 'Votre Panier', empty: 'Panier vide', emptyBody: 'Ajoutez des produits depuis le catalogue.', total: 'Total', confirm: 'Confirmer la Commande →', clear: 'Vider le panier', qty: 'Qté' },
     products: [
@@ -83,7 +83,7 @@ export const translations = {
       services: 'OUR SERVICES', service1: 'LPG Gas Delivery', service2: 'Commercial Solutions', service3: 'Regenerative Charcoal', service4: 'Carbon Credits',
       company: 'COMPANY', company1: 'Our Mission', company2: 'Vision 2030', company3: 'Sustainability', company4: 'Track Order',
       legal: 'LEGAL', legal1: 'Privacy Policy', legal2: 'Terms & Conditions', legal3: 'Cookies',
-      copyright: '© 2026 Virunga Eco-Flow — All rights reserved.', madeIn: 'Made with 🌿 in Goma, Nord-Kivu, DRC',
+      copyright: 'Copyright @ Merveille Balume K', madeIn: '',
     },
     cart: { title: 'Your Cart', empty: 'Cart empty', emptyBody: 'Add products from the catalog.', total: 'Total', confirm: 'Confirm Order →', clear: 'Clear cart', qty: 'Qty' },
     products: [
@@ -126,8 +126,8 @@ export const translations = {
       tagline: 'Nishati rafiki kwa mazingira kwa mustakabali wa Nord-Kivu. Urejeshaji, mwaminifu na inayopatikana.',
       services: 'HUDUMA ZETU', service1: 'Uwasilishaji Gesi LPG', service2: 'Suluhisho za Biashara', service3: 'Mkaa wa Urejeshaji', service4: 'Mikopo ya Kaboni',
       company: 'KAMPUNI', company1: 'Dhamira Yetu', company2: 'Maono 2030', company3: 'Uendelevu', company4: 'Fuatilia Agizo',
-      legal: 'KISHERIA', legal1: 'Sera ya Faragha', legal2: 'Masharti ya Huduma', legal3: 'Vidakuzi',
-      copyright: '© 2026 Virunga Eco-Flow — Haki zote zimehifadhiwa.', madeIn: 'Imetengenezwa kwa 🌿 huko Goma, Nord-Kivu, DRC',
+      legal: 'KISHERIA', legal1: 'Sera ya Faragha', legal2: 'Masharti ya Huuma', legal3: 'Vidakuzi',
+      copyright: 'Copyright @ Merveille Balume K', madeIn: '',
     },
     cart: { title: 'Kikapu Chako', empty: 'Kikapu kiko tupu', emptyBody: 'Ongeza bidhaa kutoka kwa katalogi.', total: 'Jumla', confirm: 'Thibitisha Agizo →', clear: 'Safisha kikapu', qty: 'Idadi' },
     products: [

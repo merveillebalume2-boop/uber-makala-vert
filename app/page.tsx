@@ -207,9 +207,8 @@ export default function Home() {
           </div>
 
           {/* Bottom bar */}
-          <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', paddingTop: '28px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', opacity: 0.4, fontSize: '13px' }}>
+          <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', paddingTop: '28px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '12px', opacity: 0.4, fontSize: '14px' }}>
             <div>{f.copyright}</div>
-            <div>{f.madeIn}</div>
           </div>
         </div>
       </footer>
