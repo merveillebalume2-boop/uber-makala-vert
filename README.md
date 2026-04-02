@@ -1,28 +1,30 @@
-# Makala Vert - Uber for Gas & Regenerative charcoal
+# Makala Vert - Platform for Energy Transition
 
-**Makala Vert** est une plateforme de transition énergétique conçue pour la moderniser l'accès à l'énergie à Goma et dans le Nord-Kivu (RDC).
+Makala Vert is an energy transition platform designed to modernize access to sustainable energy in Goma and the Nord-Kivu region (DRC).
 
-## 🌟 Concept
-L'application fonctionne comme un "Uber" pour les solutions énergétiques durables, permettant aux utilisateurs de commander et de suivre leurs livraisons en temps réel.
+## Concept
+The application simplifies access to clean energy solutions, allowing users to order and receive deliveries efficiently.
 
-- **Gaz LPG :** Livraison à domicile de bouteilles de gaz de 20kg et 50kg.
-- **Charbon Régénératif (Makala Vert) :** Combustible écologique fabriqué à partir de biomasse agricole pour lutter contre la déforestation des Virunga.
+- **LPG Gas:** Home delivery of 20kg and 50kg gas cylinders.
+- **Regenerative Charcoal (Makala Vert):** Eco-friendly fuel made from agricultural biomass to combat deforestation in the Virunga region.
 
-## 🚀 Fonctionnalités
-- **Boutique en ligne :** Catalogue de produits avec panier interactif.
-- **Suivi de Commande :** Interface de suivi temps réel pour les livraisons.
-- **Impact Écologique :** Dashboard montrant les hectares de forêt sauvés.
+## Key Features
+- **Multilingual Interface:** Full support for French, English, and Swahili.
+- **Modern UX:** Premium dark and light mode system with glassmorphism.
+- **Online Catalog:** Product selection with an interactive cart and streamlined checkout.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop viewing.
 
-## 🛠️ Stack Technique
-- **Framework :** Next.js 14+ (App Router)
-- **Langage :** TypeScript
-- **Design :** Vanilla CSS (Thème Virunga Eco-Flow)
-- **UX :** Plus Jakarta Sans typography, Glassmorphism, Responsive design.
+## Technical Stack
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** TypeScript
+- **Styling:** Vanilla CSS with Design Tokens
+- **Typography:** Plus Jakarta Sans
 
-## 📦 Installation
-1. Clonez le dépôt
-2. Installez les dépendances : `npm install`
-3. Lancez le serveur : `npm run dev`
+## Installation
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
 ---
-*Réalisé avec passion pour l'énergie renouvelable au Nord-Kivu.*
+Copyright @ Merveille Balume K
+Built for sustainable energy in Nord-Kivu.
