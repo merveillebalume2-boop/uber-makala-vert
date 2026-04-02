@@ -9,41 +9,42 @@ export default function ProductCatalog() {
   const products = t.products;
 
   return (
-    <section id="catalog" className="section-padding" style={{ background: 'var(--surface)' }}>
+    <section id="catalog" className="section-padding" style={{ background: 'var(--surface)', position: 'relative' }}>
       <div className="container">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '56px', flexWrap: 'wrap', gap: '16px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '64px', flexWrap: 'wrap', gap: '24px' }} className="animate-fade-in">
           <div>
-            <div style={{ color: 'var(--primary-green)', fontWeight: 800, fontSize: '13px', letterSpacing: '2px', marginBottom: '10px' }}>
+            <div style={{ color: 'var(--primary-green)', fontWeight: 800, fontSize: '13px', letterSpacing: '3px', marginBottom: '12px' }}>
               {t.catalog.badge}
             </div>
-            <h2 style={{ fontSize: '44px' }}>{t.catalog.title}</h2>
+            <h2 style={{ fontSize: ' clamp(32px, 5vw, 48px)', letterSpacing: '-0.04em' }}>{t.catalog.title}</h2>
           </div>
           <button
-            style={{ color: 'var(--primary-green)', fontWeight: 700, fontSize: '16px', display: 'flex', alignItems: 'center', gap: '8px', transition: 'gap 0.2s' }}
-            onMouseEnter={e => (e.currentTarget.style.gap = '14px')}
-            onMouseLeave={e => (e.currentTarget.style.gap = '8px')}
+            className="btn-premium"
+            style={{ color: 'var(--primary-green)', fontWeight: 800, fontSize: '15px', display: 'flex', alignItems: 'center', gap: '10px', transition: 'all 0.3s ease', letterSpacing: '1px' }}
+            onMouseEnter={e => (e.currentTarget.style.gap = '16px')}
+            onMouseLeave={e => (e.currentTarget.style.gap = '10px')}
           >
-            {t.catalog.viewAll} →
+            {t.catalog.viewAll.toUpperCase()} →
           </button>
         </div>
 
         <div className="catalog-grid">
-          {products.map((product) => (
-            <div key={product.id} className="card" style={{ padding: '24px', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ position: 'relative', height: '260px', background: 'var(--background-alt)', borderRadius: '12px', marginBottom: '22px', overflow: 'hidden' }}>
-                <Image src={product.image} alt={product.name} fill style={{ objectFit: 'contain', padding: '36px' }} />
+          {products.map((product, idx) => (
+            <div key={product.id} className="card animate-fade-in" style={{ padding: '28px', display: 'flex', flexDirection: 'column', animationDelay: `${idx * 0.1}s` }}>
+              <div style={{ position: 'relative', height: '280px', background: 'var(--background-alt)', borderRadius: '16px', marginBottom: '24px', overflow: 'hidden', padding: '10%' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%' }} className="animate-float">
+                  <Image src={product.image} alt={product.name} fill style={{ objectFit: 'contain' }} />
+                </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '10px' }}>
-                <h3 style={{ fontSize: '18px', color: 'var(--text-dark)' }}>{product.name}</h3>
-                <span style={{ fontSize: '20px', fontWeight: 800, color: 'var(--primary-green)', whiteSpace: 'nowrap' }}>${product.price.toFixed(2)}</span>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
+                <h3 style={{ fontSize: '20px', color: 'var(--text-dark)', fontWeight: 800 }}>{product.name}</h3>
+                <span style={{ fontSize: '22px', fontWeight: 900, color: 'var(--primary-green)', whiteSpace: 'nowrap' }}>${product.price.toFixed(2)}</span>
               </div>
-              <p style={{ color: 'var(--text-muted)', marginBottom: '24px', fontSize: '14px', flex: 1 }}>{product.description}</p>
+              <p style={{ color: 'var(--text-muted)', marginBottom: '32px', fontSize: '15px', flex: 1, lineHeight: 1.6 }}>{product.description}</p>
               <button
                 onClick={() => addToCart(product)}
-                className="premium-gradient"
-                style={{ width: '100%', height: '50px', color: 'white', borderRadius: '12px', fontWeight: 700, fontSize: '15px', transition: 'opacity 0.2s, transform 0.15s', cursor: 'pointer' }}
-                onMouseEnter={e => { e.currentTarget.style.opacity = '0.9'; e.currentTarget.style.transform = 'scale(0.98)'; }}
-                onMouseLeave={e => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'scale(1)'; }}
+                className="premium-gradient btn-premium"
+                style={{ width: '100%', height: '56px', color: 'white', borderRadius: '14px', fontWeight: 800, fontSize: '16px', transition: 'all 0.3s ease', cursor: 'pointer' }}
               >
                 {t.catalog.addToOrder}
               </button>
